@@ -21,7 +21,7 @@ export class TechnologiesComponent {
       ],
     },
     {
-      name: "Frameworks / Librerías Backend",
+      name: "Frameworks y Librerías Backend",
       technologies: [
         { name: "Spring Boot", icon: "devicon-spring-plain" },
         { name: "Spring Framework", icon: "devicon-spring-plain" },
@@ -30,7 +30,7 @@ export class TechnologiesComponent {
       ],
     },
     {
-      name: "Frameworks / Librerías Frontend",
+      name: "Frameworks y Librerías Frontend",
       technologies: [
         { name: "Angular", icon: "devicon-angularjs-plain" },
         { name: "React", icon: "devicon-react-plain" },
