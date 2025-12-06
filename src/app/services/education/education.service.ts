@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
-import { IEducation } from '../interfaces/education';
+import { Education } from '../../interfaces/education';
 
 @Injectable({
   providedIn: 'root',
 })
-export class Education {
-  private educations: IEducation[] = [
+export class EducationService {
+  private educations: Education[] = [
     {
       institution: 'Universidad ECOTEC',
       degree: 'Ingeniería en Sistemas Inteligentes',
@@ -22,7 +22,7 @@ export class Education {
     },
   ];
 
-  getEducation(): IEducation[] {
+  getEducation(): Education[] {
     return this.educations;
   }
 }

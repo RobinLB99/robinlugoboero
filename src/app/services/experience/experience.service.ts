@@ -1,11 +1,11 @@
 import { Injectable } from "@angular/core";
-import { IExperience } from "../interfaces/experience";
+import { Experience } from "../../interfaces/experience";
 
 @Injectable({
   providedIn: 'root',
 })
-export class Experience {
-  private experiences: IExperience[] = [
+export class ExperienceService {
+  private experiences: Experience[] = [
     {
       position: 'Pasante de TI',
       company: 'Unidad Educativa de las Fuerzas Armadas Liceo Naval Cmdte. Rafael Andrade Lalama',
@@ -15,7 +15,7 @@ export class Experience {
     },
   ];
 
-  getExperiences(): IExperience[] {
+  getExperiences(): Experience[] {
     return this.experiences;
   }
 }
