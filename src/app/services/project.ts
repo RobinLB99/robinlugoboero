@@ -11,7 +11,7 @@ export class ProjectService {
       description:
         'API Segura para el portal de servicios legales. Ofrece interacción entre el abogado y el cliente para la gestión de sus respectivos casos.',
       tags: ['Spring Boot', 'Java', 'PostgreSQL', 'Docker'],
-      imageUrl: 'projects-preview/legal-service-portal-api.webp',
+      imageUrl: 'projects-preview/legalserviceportalapi.webp',
       repoUrl: 'https://github.com/RobinLB99/legal-service-portal-api',
     },
     {
