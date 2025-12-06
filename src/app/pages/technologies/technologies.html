@@ -1,0 +1,21 @@
+<div class="page-container">
+  <section class="technologies-container">
+    <h1 class="technologies-title">Tecnologías</h1>
+    <p class="technologies-intro">
+      Estas son algunas de las tecnologías y herramientas con las que tengo experiencia.
+    </p>
+    <div class="technologies-grouped">
+      @for (category of categories; track category.name) {
+        <h2 class="category-title">{{ category.name }}</h2>
+        <div class="technologies-grid">
+          @for (tech of category.technologies; track tech.name) {
+            <div class="tech-card">
+              <i class="devicon" [class]="tech.icon"></i>
+              <span>{{ tech.name }}</span>
+            </div>
+          }
+        </div>
+      }
+    </div>
+  </section>
+</div>

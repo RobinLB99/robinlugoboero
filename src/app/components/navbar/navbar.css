@@ -1,0 +1,163 @@
+/* src/app/components/navbar/navbar.css */
+
+:host {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  --nav-padding-x: 2rem;
+}
+
+/* --- Base de la barra de navegación --- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: var(--nav-height);
+  padding: 0 var(--nav-padding-x);
+  background-color: transparent;
+  border-bottom: 1px solid transparent;
+  transition: background-color var(--transition-speed) ease,
+    border-color var(--transition-speed) ease,
+    backdrop-filter var(--transition-speed) ease;
+}
+
+/* --- Estado SCROLLED (Glassmorphism) --- */
+.navbar.scrolled {
+  background-color: color-mix(in srgb, var(--bg-body) 80%, transparent);
+  border-bottom-color: var(--primary);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+/* --- Logo / Título --- */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+/* --- Enlaces de Navegación (Escritorio) --- */
+.navbar-links {
+  display: none; /* Oculto en móvil por defecto */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.navbar-links a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text);
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid transparent;
+  transition: color var(--transition-speed),
+    border-color var(--transition-speed);
+}
+
+.navbar-links a:hover,
+.navbar-links a.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* --- Botón de Menú (Móvil) --- */
+.menu-toggle {
+  display: block;
+  background: none;
+  border: none;
+  color: var(--text);
+  cursor: pointer;
+  position: relative; /* For positioning the icons */
+  width: 32px; /* Approx size of 2x icon */
+  height: 32px;
+}
+
+.menu-toggle .icon-bars,
+.menu-toggle .icon-times {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.menu-toggle .icon-times {
+  transform: scale(0.5) rotate(-90deg);
+  opacity: 0;
+}
+
+.menu-toggle.is-open .icon-bars {
+  transform: scale(0.5) rotate(90deg);
+  opacity: 0;
+}
+
+.menu-toggle.is-open .icon-times {
+  transform: scale(1) rotate(0);
+  opacity: 1;
+}
+
+/* --- Overlay de Navegación (Móvil) --- */
+.nav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-body);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-20px);
+  transition: opacity var(--transition-speed) ease,
+    transform var(--transition-speed) ease;
+  z-index: -1; /* Debajo del navbar */
+}
+
+.nav-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.nav-overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.nav-overlay li {
+  margin: 2rem 0;
+}
+
+.nav-overlay a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.8rem;
+  color: var(--text);
+  transition: color var(--transition-speed);
+}
+
+.nav-overlay a:hover {
+  color: var(--accent);
+}
+
+/* --- Media Queries para Responsividad --- */
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+  .navbar-links {
+    display: flex;
+  }
+}

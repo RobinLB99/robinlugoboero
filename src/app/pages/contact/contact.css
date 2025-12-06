@@ -1,0 +1,133 @@
+/* src/app/pages/contact/contact.css */
+
+.page-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-section {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.contact-intro {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 3rem auto;
+  line-height: 1.7;
+}
+
+.contact-methods {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-card {
+  background-color: var(--bg-card);
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  display: flex; /* Make it a flex container */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  gap: 0.8rem; /* Space between icon and label */
+  transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+  text-decoration: none;
+  /* Inverted color logic */
+  color: var(--accent);
+}
+
+.contact-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  /* Inverted color logic */
+  color: var(--text);
+}
+
+.contact-card fa-icon {
+  /* margin-bottom handled by gap on parent */
+  /* Start with the less prominent color */
+  color: var(--accent);
+  transition: color var(--transition-speed) ease;
+}
+
+.contact-card:hover fa-icon {
+  /* Brighten on hover */
+  color: var(--text);
+}
+
+.contact-card .contact-label {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  /* The color is inherited from .contact-card and will transition */
+}
+
+/* --- Responsive Adjustments for Contact Section --- */
+
+@media (max-width: 767px) {
+  .contact-section {
+    padding: 3rem 1rem;
+  }
+
+  .contact-title {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .contact-intro {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-methods {
+    gap: 1.5rem;
+    grid-template-columns: 1fr; /* Stack cards vertically */
+  }
+
+  .contact-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .contact-card .contact-label {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 2rem 0.5rem;
+  }
+
+  .contact-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .contact-intro {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-methods {
+    gap: 1rem;
+  }
+
+  .contact-card {
+    padding: 1.5rem 1rem;
+  }
+
+  .contact-card .contact-label {
+    font-size: 1.2rem;
+  }
+}

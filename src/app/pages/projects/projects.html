@@ -1,0 +1,57 @@
+<!-- src/app/pages/projects/projects.html -->
+<div class="page-container">
+    <main class="projects-container">
+        <h1 class="projects-title">Proyectos Destacados</h1>
+        <p class="projects-description">
+            Aquí tienes una selección de mis proyectos personales y
+            profesionales mas destacados.
+        </p>
+
+        <div class="projects-grid">
+            @for (project of projects; track project.name) {
+            <article class="project-card">
+                <img
+                    [src]="project.imageUrl"
+                    [alt]="project.name"
+                    [title]="project.name"
+                    class="card-image"
+                />
+                <div class="card-content">
+                    <h2 class="card-title">{{ project.name }}</h2>
+                    <p class="card-description">{{ project.description }}</p>
+                    <div class="card-tags">
+                        @for (tag of project.tags; track tag) {
+                        <span class="tag">{{ tag }}</span>
+                        }
+                    </div>
+                    <div class="card-actions">
+                        @if (project.webUrl) {
+                        <a
+                            [href]="project.webUrl"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-primary"
+                        >
+                            Ir a la web
+                        </a>
+                        }
+                        <a
+                            [href]="project.repoUrl"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-secondary"
+                        >
+                            Código Fuente
+                        </a>
+                    </div>
+                </div>
+            </article>
+            }
+        </div>
+        <div class="github-link-container">
+            <a href="https://github.com/RobinLB99" target="_blank" rel="noopener noreferrer" class="github-link">
+                Ver más
+            </a>
+        </div>
+    </main>
+</div>

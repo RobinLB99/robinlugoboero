@@ -1,0 +1,142 @@
+/* src/app/pages/home/home.css */
+
+.page-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; /* Para que se adapte en pantallas pequeñas */
+  gap: 2rem;
+  padding: 6rem 2rem; /* Añadido padding horizontal */
+  min-height: 70vh;
+}
+
+.hero-avatar img {
+  width: 450px;
+  height: 450px;
+}
+
+.hero-content {
+  text-align: left;
+  max-width: 600px;
+}
+
+.hero-content .hero-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+
+.hero-content .hero-subtitle {
+  font-size: 1.5rem;
+  color: var(--accent);
+  margin-bottom: 2rem;
+}
+
+.hero-content .hero-button {
+  display: inline-block;
+  background-color: var(--primary);
+  color: var(--bg-body);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: background-color var(--transition-speed) ease;
+}
+
+.hero-content .hero-button:hover {
+  background-color: var(--accent);
+  color: var(--bg-card);
+}
+
+.hero-content .hero-main-profession {
+  font-size: 1.8rem; /* Slightly larger than the old subtitle */
+  font-weight: 600; /* Make it a bit bolder */
+  color: var(--accent); /* Use accent color for emphasis, as requested */
+  margin-bottom: 0.5rem; /* Space between the two profession lines */
+}
+
+.hero-content .hero-secondary-profession {
+  font-size: 1.3rem; /* Smaller than main profession */
+  color: var(--accent); /* Use accent color for specialization */
+  margin-bottom: 2rem; /* Consistent with old subtitle margin before button */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 767px) {
+  .hero-section {
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center stacked elements */
+    text-align: center; /* Center align text for the whole section */
+    padding: 4rem 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .hero-avatar img {
+    width: 350px; /* Smaller avatar on tablets/large phones */
+    height: 350px;
+  }
+
+  .hero-avatar {
+    margin-bottom: 2rem; /* Space between avatar and text */
+  }
+
+  .hero-content {
+    text-align: center; /* Ensure text content is centered */
+  }
+
+  .hero-content .hero-title {
+    font-size: 2.2rem; /* Adjust font size for smaller screens */
+  }
+
+  .hero-content .hero-subtitle {
+    font-size: 1.1rem; /* Adjust font size for smaller screens */
+  }
+
+  .hero-content .hero-main-profession {
+    font-size: 1.3rem; /* Adjusted for smaller screens */
+  }
+
+  .hero-content .hero-secondary-profession {
+    font-size: 1rem; /* Adjusted for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 3rem 1rem; /* Further adjust padding for very small screens */
+  }
+
+  .hero-avatar img {
+    width: 300px; /* Even smaller avatar on very small phones */
+    height: 300px;
+  }
+
+  .hero-content .hero-title {
+    font-size: 1.8rem; /* Further adjust font size for very small screens */
+  }
+
+  .hero-content .hero-subtitle {
+    font-size: 1rem; /* Further adjust font size for very small screens */
+  }
+
+  .hero-content .hero-button {
+    padding: 0.8rem 1.5rem; /* Adjust button padding */
+    font-size: 1rem;
+  }
+
+  .hero-content .hero-main-profession {
+    font-size: 1.1rem; /* Further adjusted for very small screens */
+  }
+
+  .hero-content .hero-secondary-profession {
+    font-size: 0.9rem; /* Further adjusted for very small screens */
+  }
+}

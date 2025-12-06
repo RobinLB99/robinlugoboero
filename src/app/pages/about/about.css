@@ -1,0 +1,103 @@
+/* src/app/pages/about/about.css */
+
+.page-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* About Section */
+.about-section {
+  padding: 4rem 0;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--accent);
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-avatar img {
+  width: 350px;
+  height: 350px;
+  border-radius: 1rem; /* Rounded corners */
+  object-fit: cover;
+  border: 5px solid var(--primary);
+  box-shadow: 0 0 30px color-mix(in srgb, var(--primary) 50%, transparent);
+}
+
+.about-content {
+  flex: 1;
+  max-width: 600px;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.about-content p {
+  margin-bottom: 1.5rem;
+}
+
+/* --- Responsive Adjustments for About Section --- */
+
+@media (max-width: 767px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .about-avatar img {
+    width: 300px; /* Adjusted larger size for tablets */
+    height: 300px;
+  }
+
+  .about-section {
+    padding: 3rem 1rem;
+  }
+
+  .about-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-content {
+    max-width: 100%; /* Allow content to take full width */
+    padding: 0 1rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-avatar img {
+    width: 250px; /* Adjusted larger size for phones */
+    height: 250px;
+  }
+
+  .about-section {
+    padding: 2rem 0.5rem;
+  }
+
+  .about-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-content p {
+    font-size: 0.95rem;
+  }
+}

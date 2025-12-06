@@ -1,0 +1,64 @@
+/* src/app/components/footer/footer.css */
+
+.footer-container {
+  background-color: var(--bg-card);
+  padding: 2rem 1rem;
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-socials a {
+  color: var(--accent);
+  transition: color var(--transition-speed) ease, transform var(--transition-speed) ease;
+}
+
+.footer-socials a:hover {
+  color: var(--text);
+  transform: translateY(-3px);
+}
+
+.footer-copyright {
+  font-size: 0.9rem;
+  color: var(--accent);
+}
+
+/* --- Responsive Adjustments for Footer --- */
+@media (max-width: 767px) {
+  .footer-content {
+    flex-direction: column; /* Stack vertically */
+    justify-content: center; /* Center items */
+    gap: 1rem; /* Space between stacked items */
+    text-align: center;
+  }
+
+  .footer-socials {
+    justify-content: center; /* Center social icons when stacked */
+    gap: 1.5rem;
+  }
+
+  .footer-copyright {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    padding: 1.5rem 0.5rem;
+  }
+  .footer-socials {
+    gap: 1rem;
+  }
+}
