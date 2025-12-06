@@ -17,7 +17,7 @@ export class ProjectService {
     {
       name: 'Portafolio (Antiguo)',
       description: 'Version anterior de mi Portafolio personal.',
-      tags: ['Preact'],
+      tags: ['Preact', 'Bootstrap'],
       imageUrl: 'projects-preview/portafolio.webp',
       repoUrl: 'https://github.com/RobinLB99/Portafolio_v2',
       webUrl: 'https://robinlb99.github.io/Portafolio_v2',
