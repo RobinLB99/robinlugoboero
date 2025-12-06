@@ -4,6 +4,7 @@ import { ProjectsComponent } from './pages/projects/projects';
 import { ContactComponent } from './pages/contact/contact';
 import { AboutComponent } from './pages/about/about';
 import { TechnologiesComponent } from './pages/technologies/technologies';
+import { CareerComponent } from './pages/career/career';
 
 export const routes: Routes = [
   {
@@ -13,22 +14,27 @@ export const routes: Routes = [
   },
   {
     path: 'about',
-    title: 'About | Robin Lugo B.',
+    title: 'Sobre mí | Robin Lugo B.',
     component: AboutComponent,
   },
   {
+    path: 'career',
+    title: 'Trayectoria | Robin Lugo B.',
+    component: CareerComponent,
+  },
+  {
     path: 'technologies',
-    title: 'Technologies | Robin Lugo B.',
+    title: 'Tecnologías | Robin Lugo B.',
     component: TechnologiesComponent,
   },
   {
     path: 'projects',
-    title: 'Projects | Robin Lugo B.',
+    title: 'Proyectos | Robin Lugo B.',
     component: ProjectsComponent,
   },
   {
     path: 'contact',
-    title: 'Contact | Robin Lugo B.',
+    title: 'Contacto | Robin Lugo B.',
     component: ContactComponent,
   },
   {

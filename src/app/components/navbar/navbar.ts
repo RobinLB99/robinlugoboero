@@ -17,6 +17,7 @@ export class Navbar {
   public readonly navLinks = [
     { path: 'home', label: 'Inicio' },
     { path: 'about', label: 'Sobre mí' },
+    { path: 'career', label: 'Trayectoria' },
     { path: 'technologies', label: 'Tecnologías' },
     { path: 'projects', label: 'Proyectos' },
     { path: 'contact', label: 'Contacto' },

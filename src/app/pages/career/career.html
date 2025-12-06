@@ -1,0 +1,33 @@
+<div class="page-container">
+  <section id="career" class="career-container">
+    <h1 class="career-title">Mi Trayectoria</h1>
+    <div class="career-columns">
+      <div class="career-column">
+        <h2 class="column-title">Experiencia Laboral y/o Profesional</h2>
+        <div class="career-items">
+          @for (exp of experiences; track $index) {
+          <div class="career-item">
+            <h3>{{ exp.position }}</h3>
+            <h4>{{ exp.company }}</h4>
+            <span class="duration">{{ exp.duration }}</span>
+            <p>{{ exp.description }}</p>
+          </div>
+          }
+        </div>
+      </div>
+      <div class="career-column">
+        <h2 class="column-title">Educación</h2>
+        <div class="career-items">
+          @for (edu of educations; track $index) {
+          <div class="career-item">
+            <h3>{{ edu.degree }}</h3>
+            <h4>{{ edu.institution }}</h4>
+            <span class="duration">{{ edu.duration }}</span>
+            <p>{{ edu.description }}</p>
+          </div>
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
