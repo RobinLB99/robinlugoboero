@@ -21,7 +21,7 @@ export class TechnologiesComponent {
       ],
     },
     {
-      name: "Frameworks/Librerías Backend",
+      name: "Frameworks / Librerías Backend",
       technologies: [
         { name: "Spring Boot", icon: "devicon-spring-plain" },
         { name: "Spring Framework", icon: "devicon-spring-plain" },
@@ -30,7 +30,7 @@ export class TechnologiesComponent {
       ],
     },
     {
-      name: "Frameworks/Librerías Frontend",
+      name: "Frameworks / Librerías Frontend",
       technologies: [
         { name: "Angular", icon: "devicon-angularjs-plain" },
         { name: "React", icon: "devicon-react-plain" },
@@ -39,7 +39,7 @@ export class TechnologiesComponent {
       ],
     },
     {
-      name: "Herramientas/DevOps",
+      name: "Herramientas / DevOps",
       technologies: [
         { name: "Docker", icon: "devicon-docker-plain" },
         { name: "Git", icon: "devicon-git-plain" },
