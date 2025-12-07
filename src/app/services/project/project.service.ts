@@ -8,6 +8,7 @@ export class ProjectService {
   private projects: Project[] = [
     {
       name: 'Portal de Servicios Legales - API',
+      type: ['Aplicación', 'API', 'Web'],
       description:
         'API Segura para el portal de servicios legales. Ofrece interacción entre el abogado y el cliente para la gestión de sus respectivos casos.',
       tags: ['Spring Boot', 'Java', 'PostgreSQL', 'Docker'],
@@ -16,6 +17,7 @@ export class ProjectService {
     },
     {
       name: 'Portafolio (Antiguo)',
+      type: ['Sitio', 'Web'],
       description: 'Version anterior de mi Portafolio personal.',
       tags: ['Preact', 'Bootstrap'],
       imageUrl: 'projects-preview/portafolio.webp',
@@ -24,6 +26,7 @@ export class ProjectService {
     },
     {
       name: 'TechBit',
+      type: ['Aplicación', 'MVC', 'Web'],
       description: 'Plataforma de Gestión de Tickets de Soporte Técnico.',
       tags: [
         'Jakarta EE',
@@ -40,6 +43,7 @@ export class ProjectService {
     },
     {
       name: 'Librería',
+      type: ['Aplicación', 'MVC', 'Web'],
       description:
         'Software para la administración de una librería mediante la gestión de inventario, compra y venta de libros.',
       tags: ['Jakarta EE', 'JSP', 'Java', 'JavaScript', 'Bootstrap', 'MySQL', 'Eclipselink'],
@@ -48,6 +52,7 @@ export class ProjectService {
     },
     {
       name: 'Tienda',
+      type: ['Aplicación', 'Escritorio'],
       description: 'Software de escritorio para la gestión de productos de una tienda.',
       tags: ['Java', 'Java Swing', 'MySQL', 'Eclipselink'],
       imageUrl: 'projects-preview/tienda.webp',
@@ -55,6 +60,7 @@ export class ProjectService {
     },
     {
       name: 'Calculadora',
+      type: ['Sitio', 'Web'],
       description: 'Calculadora web para operaciones básicas.',
       tags: ['HTML', 'CSS', 'JavaScript'],
       imageUrl: 'projects-preview/calculadora.webp',

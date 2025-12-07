@@ -17,7 +17,12 @@
                     class="card-image"
                 />
                 <div class="card-content">
+                  <div class="card-title-type">
                     <h2 class="card-title">{{ project.name }}</h2>
+                    @for (type of project.type; track $index) {
+                    <span class="type">{{ type }}</span>
+                    }
+                  </div>
                     <p class="card-description">{{ project.description }}</p>
                     <div class="card-tags">
                         @for (tag of project.tags; track tag) {
