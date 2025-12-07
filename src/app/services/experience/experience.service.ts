@@ -11,7 +11,7 @@ export class ExperienceService {
       company: 'Unidad Educativa de las Fuerzas Armadas Liceo Naval Cmdte. Rafael Andrade Lalama',
       duration: 'Agosto 2022 - Septiembre 2022',
       description:
-        'Soporte a usuarios, mantenimiento de sistemas, documentación de incidencias. Mantenimiento preventivo y correctivo de los equipos de cómputo. Asistencia efectiva a los usuarios de la institución.',
+        'Soporte técnico a los usuarios de la institución, realizando el mantenimiento preventivo y correctivo de los equipos de cómputo y sistemas. Análisis y mantenimiento de la red institucional para garantizar su rendimiento óptimo, además de documentar sistemáticamente todas las incidencias técnicas y las soluciones aplicadas.',
     },
   ];
 
