@@ -35,7 +35,7 @@
           <div class="career-item">
             <h3>{{ cert.title }}</h3>
             <h4>{{ cert.intitution }}</h4>
-            <span class="duration">{{ getMonthName(cert.dateExpetition.getMonth()).toUpperCase() }} {{ cert.dateExpetition.getFullYear() }}</span>
+            <span class="duration">{{ getMonthName(cert.dateExpetition.getMonth()) }} {{ cert.dateExpetition.getFullYear() }}</span>
             <a href="{{ cert.url }}" target="_blank">{{ cert.credentialID }}</a>
           </div>
           }
