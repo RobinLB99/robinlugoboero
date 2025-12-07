@@ -93,3 +93,18 @@
   color: #fff;
   line-height: 1.6;
 }
+
+@media (min-width: 768px) {
+  .certification-column {
+    grid-column: span 2;
+  }
+
+  .certification-data {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .certification-data .career-item {
+    flex: 1 1 45%;
+  }
+}
