@@ -36,6 +36,7 @@ export class TechnologiesComponent {
         { name: "React", icon: "devicon-react-plain" },
         { name: "Thymeleaf", icon: "devicon-thymeleaf-plain" },
         { name: "HTMX", icon: "devicon-htmx-plain" },
+        { name: "Bootstrap", icon: "devicon-bootstrap-plain"},
       ],
     },
     {
