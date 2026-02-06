@@ -12,4 +12,5 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 export class Footer {
   // Font Awesome Icons
   public readonly faGithub = faGithub;
+  public readonly currentYear = new Date().getFullYear();
 }
