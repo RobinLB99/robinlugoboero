@@ -58,15 +58,6 @@ export class ProjectService {
       imageUrl: 'projects-preview/tienda.webp',
       repoUrl: 'https://github.com/RobinLB99/tienda',
     },
-    {
-      name: 'Calculadora',
-      type: ['Sitio', 'Web'],
-      description: 'Calculadora web para operaciones básicas.',
-      tags: ['HTML', 'CSS', 'JavaScript'],
-      imageUrl: 'projects-preview/calculadora.webp',
-      repoUrl: 'https://github.com/RobinLB99/Calculadora',
-      webUrl: 'https://robinlb99.github.io/Calculadora/',
-    },
   ];
 
   getProjects(): Project[] {
