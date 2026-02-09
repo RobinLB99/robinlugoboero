@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1770659869334,
+  "timestamp": 1770666886118,
   "index": "/robinlugoboero/index.html",
   "assetGroups": [
     {
@@ -27,8 +27,6 @@
         "ignoreVary": true
       },
       "urls": [
-        "/robinlugoboero/assets/fonts/devicon/devicon.ttf",
-        "/robinlugoboero/assets/fonts/devicon/devicon.woff",
         "/robinlugoboero/icons/icon-128x128.png",
         "/robinlugoboero/icons/icon-144x144.png",
         "/robinlugoboero/icons/icon-152x152.png",
@@ -54,8 +52,6 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/robinlugoboero/assets/fonts/devicon/devicon.ttf": "35a3de796f80a9708ca0caa7502e4dddbb03603b",
-    "/robinlugoboero/assets/fonts/devicon/devicon.woff": "a702412e82e554450178ac9b6d321143defa1b22",
     "/robinlugoboero/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
     "/robinlugoboero/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
     "/robinlugoboero/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
@@ -65,7 +61,7 @@
     "/robinlugoboero/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/robinlugoboero/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/robinlugoboero/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/robinlugoboero/index.html": "4bdb9c8ddd8272dd7ce6acf16be3fd43c23f31b5",
+    "/robinlugoboero/index.html": "876caea8ee27d0f25bbba393aeafe840fa52427b",
     "/robinlugoboero/main-HYWD7D4I.js": "f3f2e53fc52af62b22066bb28f6a42911e0d6727",
     "/robinlugoboero/manifest.webmanifest": "bf19955b9944a48336beeceaa381a78b3b17e616",
     "/robinlugoboero/media/devicon-42TQVNS6.woff": "a702412e82e554450178ac9b6d321143defa1b22",
