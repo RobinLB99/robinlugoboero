@@ -23,16 +23,6 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              },
-              {
-                "glob": "devicon.woff",
-                "input": "node_modules/devicon/fonts",
-                "output": "/assets/fonts/devicon"
-              },
-              {
-                "glob": "devicon.ttf",
-                "input": "node_modules/devicon/fonts",
-                "output": "/assets/fonts/devicon"
               }
             ],
             "styles": ["src/styles.css"]
