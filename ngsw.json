@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1770667774030,
+  "timestamp": 1770671495723,
   "index": "/robinlugoboero/index.html",
   "assetGroups": [
     {
@@ -15,7 +15,7 @@
         "/robinlugoboero/index.html",
         "/robinlugoboero/main-HYWD7D4I.js",
         "/robinlugoboero/manifest.webmanifest",
-        "/robinlugoboero/styles-J5VIOKNP.css"
+        "/robinlugoboero/styles-H4EB2EIY.css"
       ],
       "patterns": []
     },
@@ -61,7 +61,7 @@
     "/robinlugoboero/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/robinlugoboero/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/robinlugoboero/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/robinlugoboero/index.html": "1d35a911a884fbb76f450b72343b0316a38a28fe",
+    "/robinlugoboero/index.html": "ad25c9f685a0be369611e201b928115ada0a57e5",
     "/robinlugoboero/main-HYWD7D4I.js": "f3f2e53fc52af62b22066bb28f6a42911e0d6727",
     "/robinlugoboero/manifest.webmanifest": "bf19955b9944a48336beeceaa381a78b3b17e616",
     "/robinlugoboero/media/devicon-42TQVNS6.woff": "a702412e82e554450178ac9b6d321143defa1b22",
@@ -75,7 +75,7 @@
     "/robinlugoboero/projects-preview/portafolio.webp": "98f9a33a38bbf3a5657515c3fb454aa900e1d669",
     "/robinlugoboero/projects-preview/techbit.webp": "b0cfb340f6298cee851c6bf7ea9911de433871e3",
     "/robinlugoboero/projects-preview/tienda.webp": "ad5cd555533c86598b28336e3948ac127218e30a",
-    "/robinlugoboero/styles-J5VIOKNP.css": "3b5d5834211113987589c2389adcd34f54314d52"
+    "/robinlugoboero/styles-H4EB2EIY.css": "6ade14bd11d3a6a43b7427c5331b0ed9a8d1cbf0"
   },
   "navigationUrls": [
     {
