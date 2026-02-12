@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --base-href /robinlugoboero/ && npx angular-cli-ghpages --dir=dist/Portafolio-v3/browser",
+    "deploy-github": "ng build --base-href /robinlugoboero/ && mv dist/Portafolio-v3/browser/index.csr.html dist/Portafolio-v3/browser/index.html && npx angular-cli-ghpages --dir=dist/Portafolio-v3/browser",
     "lint": "ng lint",
     "serve:ssr:Portafolio-v3": "node dist/Portafolio-v3/server/server.mjs"
   },
