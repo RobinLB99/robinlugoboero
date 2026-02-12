@@ -38,7 +38,7 @@
 }
 
 .category-title::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -63,8 +63,9 @@
   padding: 1.5rem 1rem;
   border-radius: 8px;
   font-weight: 500;
-  color: var(--accent);
-  transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease, color var(--transition-speed) ease;
+  transition:
+    transform var(--transition-speed) ease,
+    box-shadow var(--transition-speed) ease;
   border: 1px solid var(--primary);
 
   /* Flex properties for alignment */
@@ -75,19 +76,38 @@
   gap: 0.8rem; /* Space between icon and text */
 }
 
+.devicon-mask {
+  display: inline-block;
+  width: 48px; /* Default icon color */
+  height: 48px; /* Default icon color */
+  background-color: var(--accent); /* Default icon color */
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  transition: background-color 0.3s ease;
+}
+
 .tech-card span {
   font-size: 1rem;
+  color: var(--accent); /* Default text color */
+  transition: color 0.3s ease;
 }
 
 .tech-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-  color: var(--text);
   border-color: var(--accent);
 }
 
-.tech-card i.devicon {
-  font-size: 32px; /* Tamaño solicitado para los iconos */
+.tech-card:hover .devicon-mask {
+  background-color: #e2e8f0; /* Hover icon color */
+}
+
+.tech-card:hover span {
+  color: var(--text); /* Hover text color */
 }
 
 /* --- Responsive Adjustments --- */
@@ -125,12 +145,13 @@
     gap: 0.6rem;
   }
 
-  .tech-card span {
-    font-size: 0.9rem;
+  .devicon-mask {
+    width: 40px;
+    height: 40px;
   }
 
-  .tech-card i.devicon {
-    font-size: 28px; /* Ajuste para pantallas medianas */
+  .tech-card span {
+    font-size: 0.9rem;
   }
 }
 
@@ -153,7 +174,8 @@
     gap: 1rem;
   }
 
-  .tech-card i.devicon {
-    font-size: 24px; /* Ajuste para pantallas pequeñas */
+  .devicon-mask {
+    width: 32px;
+    height: 32px;
   }
 }
