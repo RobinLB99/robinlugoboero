@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1770675720404,
-  "index": "/robinlugoboero/index.html",
+  "timestamp": 1770865056244,
+  "index": "/robinlugoboero/index.csr.html",
   "assetGroups": [
     {
       "name": "app",
@@ -12,10 +12,10 @@
       },
       "urls": [
         "/robinlugoboero/favicon.ico",
-        "/robinlugoboero/index.html",
-        "/robinlugoboero/main-HYWD7D4I.js",
+        "/robinlugoboero/index.csr.html",
+        "/robinlugoboero/main-22L3LNE2.js",
         "/robinlugoboero/manifest.webmanifest",
-        "/robinlugoboero/styles-64ZNF73R.css"
+        "/robinlugoboero/styles-PRXCWLNB.css"
       ],
       "patterns": []
     },
@@ -38,6 +38,9 @@
         "/robinlugoboero/icons/icon-512x512.png",
         "/robinlugoboero/icons/icon-72x72.png",
         "/robinlugoboero/icons/icon-96x96.png",
+        "/robinlugoboero/media/devicon-42TQVNS6.woff",
+        "/robinlugoboero/media/devicon-ANQBM2YL.ttf",
+        "/robinlugoboero/media/devicon-ER6V6DXO.svg",
         "/robinlugoboero/profile/avatar.webp",
         "/robinlugoboero/profile/profile.webp",
         "/robinlugoboero/projects-preview/calculadora.webp",
@@ -64,9 +67,12 @@
     "/robinlugoboero/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/robinlugoboero/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/robinlugoboero/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/robinlugoboero/index.html": "60edc8f95f30b9ab9852cef3d8d1b43b117af785",
-    "/robinlugoboero/main-HYWD7D4I.js": "f3f2e53fc52af62b22066bb28f6a42911e0d6727",
+    "/robinlugoboero/index.csr.html": "ba12a817171412e4e14e5d4c0906b976fcf6fd5e",
+    "/robinlugoboero/main-22L3LNE2.js": "60ae68cacb5d9b8a8af7ef8fef324ae7ed09ef5f",
     "/robinlugoboero/manifest.webmanifest": "bf19955b9944a48336beeceaa381a78b3b17e616",
+    "/robinlugoboero/media/devicon-42TQVNS6.woff": "a702412e82e554450178ac9b6d321143defa1b22",
+    "/robinlugoboero/media/devicon-ANQBM2YL.ttf": "35a3de796f80a9708ca0caa7502e4dddbb03603b",
+    "/robinlugoboero/media/devicon-ER6V6DXO.svg": "64d280392b3c8aa4a6013715050702dd2ffc524a",
     "/robinlugoboero/profile/avatar.webp": "f3523d2e598d0d7979c3328b590a27c6cf54abe7",
     "/robinlugoboero/profile/profile.webp": "701119306316fa4d8b6b77a3c2c34430e72b04bd",
     "/robinlugoboero/projects-preview/calculadora.webp": "78884e0927e27be3c95ab1dbd67b44fca8dfeed4",
@@ -75,7 +81,7 @@
     "/robinlugoboero/projects-preview/portafolio.webp": "98f9a33a38bbf3a5657515c3fb454aa900e1d669",
     "/robinlugoboero/projects-preview/techbit.webp": "b0cfb340f6298cee851c6bf7ea9911de433871e3",
     "/robinlugoboero/projects-preview/tienda.webp": "ad5cd555533c86598b28336e3948ac127218e30a",
-    "/robinlugoboero/styles-64ZNF73R.css": "d9f4798fc018d1b701750b3c2c1d2a2dcbf202a8"
+    "/robinlugoboero/styles-PRXCWLNB.css": "a548299d2a9c936f060626981957a5c569a5c7bb"
   },
   "navigationUrls": [
     {
