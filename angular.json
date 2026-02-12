@@ -26,7 +26,6 @@
               }
             ],
             "styles": [
-              "public/css/devicon.min.css",
               "src/styles.css"
             ],
             "server": "src/main.server.ts",
