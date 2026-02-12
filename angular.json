@@ -23,11 +23,119 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "java-*.svg",
+                "input": "node_modules/devicon/icons/java",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "javascript-*.svg",
+                "input": "node_modules/devicon/icons/javascript",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "typescript-*.svg",
+                "input": "node_modules/devicon/icons/typescript",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "html5-*.svg",
+                "input": "node_modules/devicon/icons/html5",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "css3-*.svg",
+                "input": "node_modules/devicon/icons/css3",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "spring-*.svg",
+                "input": "node_modules/devicon/icons/spring",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "hibernate-*.svg",
+                "input": "node_modules/devicon/icons/hibernate",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "maven-*.svg",
+                "input": "node_modules/devicon/icons/maven",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "angularjs-*.svg",
+                "input": "node_modules/devicon/icons/angularjs",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "react-*.svg",
+                "input": "node_modules/devicon/icons/react",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "thymeleaf-*.svg",
+                "input": "node_modules/devicon/icons/thymeleaf",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "htmx-*.svg",
+                "input": "node_modules/devicon/icons/htmx",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "bootstrap-*.svg",
+                "input": "node_modules/devicon/icons/bootstrap",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "docker-*.svg",
+                "input": "node_modules/devicon/icons/docker",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "git-*.svg",
+                "input": "node_modules/devicon/icons/git",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "linux-*.svg",
+                "input": "node_modules/devicon/icons/linux",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "postman-*.svg",
+                "input": "node_modules/devicon/icons/postman",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "mongodb-*.svg",
+                "input": "node_modules/devicon/icons/mongodb",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "mariadb-*.svg",
+                "input": "node_modules/devicon/icons/mariadb",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "mysql-*.svg",
+                "input": "node_modules/devicon/icons/mysql",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "postgresql-*.svg",
+                "input": "node_modules/devicon/icons/postgresql",
+                "output": "icons/devicon"
+              },
+              {
+                "glob": "microsoftsqlserver-*.svg",
+                "input": "node_modules/devicon/icons/microsoftsqlserver",
+                "output": "icons/devicon"
               }
             ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "styles": ["src/styles.css"],
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
