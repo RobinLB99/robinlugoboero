@@ -7,10 +7,10 @@ import { Project } from '../../interfaces/project';
 export class ProjectService {
   private projects: Project[] = [
     {
-      name: 'Portal de Servicios Legales - API',
+      name: 'API REST para Servicios Legales',
       type: ['Aplicación', 'API', 'Web'],
       description:
-        'API Segura para el portal de servicios legales. Ofrece interacción entre el abogado y el cliente para la gestión de sus respectivos casos.',
+        'API REST para gestión de servicios legales. Facilita la interacción entre abogados y clientes.',
       tags: ['Spring Boot', 'Java', 'PostgreSQL', 'Docker'],
       imageUrl: 'projects-preview/legalserviceportalapi.webp',
       repoUrl: 'https://github.com/RobinLB99/legal-service-portal-api',
