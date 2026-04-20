@@ -7,7 +7,7 @@
 
 ## 🎯 Perfil Profesional
 
-**Desarrollador de Software | Estudiante de Ingeniería en Sistemas Inteligentes | Tecnólogo en Redes y Telecomunicaciones**
+**Backend Developer | Java & Spring Boot Specialist | Systems Engineer | Con experiencia en Angular & UI/UX Minimalista**
 
 Focalizado en la construcción de soluciones robustas que integran la visión analítica de la infraestructura con la agilidad del desarrollo web moderno. Mi enfoque se centra en la creación de código funcional, escalable y bien estructurado, priorizando la sostenibilidad a largo plazo y la resolución eficiente de problemas complejos.
 
@@ -16,15 +16,14 @@ Focalizado en la construcción de soluciones robustas que integran la visión an
 ## 🛠️ Stack Tecnológico
 
 ### Frontend
-- **Framework:** Angular 21 (Latest) con **SSR (Server-Side Rendering)** para optimización SEO y rendimiento.
-- **Testing:** Vitest para pruebas unitarias rápidas y eficientes.
-- **Estilos:** CSS3 nativo (Vanilla CSS) siguiendo principios de diseño atómico y responsivo.
-- **Herramientas:** FontAwesome, Devicon, Prettier & ESLint (Angular-recommended).
+- **Framework:** Angular 21 (Latest) con **SSR (Server-Side Rendering)** para optimización SEO y rendimiento, Thymeleaf, HTMX.
+- **Estilos:** CSS3 nativo (Vanilla CSS) siguiendo principios de diseño atómico y responsivo, Bootstrap, Tailwind CSS.
+- **Herramientas:** FontAwesome, Devicon, Prettier & ESLint.
 
 ### Backend & Core Skills (Proyectos Relacionados)
 - **Lenguajes:** Java (Spring Boot, Jakarta EE), JavaScript/TypeScript.
-- **Persistencia:** PostgreSQL, MySQL, MariaDB, Eclipselink JPA.
-- **Infraestructura:** Docker, Redes y Telecomunicaciones.
+- **Persistencia:** PostgreSQL, MySQL, MariaDB, SQL Server, Hibernate, Eclipselink JPA.
+- **Infraestructura:** Docker, Linux, Redes y Telecomunicaciones.
 
 ---
 
@@ -74,7 +73,8 @@ ng build
 
 ## 📂 Proyectos Destacados
 
-- **API REST Servicios Legales:** Backend robusto con Spring Boot y Docker.
+- **API REST Servicios Legales:** API backend diseñada para gestionar los procesos de un portal de servicios legales. Proporciona una serie de endpoints RESTful para la administración de usuarios, casos legales, documentos asociados, y la gestión de diferentes tipos de clientes (personas naturales y empresas), así como abogados. La aplicación está construida con Spring Boot, lo que garantiza una arquitectura robusta, segura y escalable..
+- **API DenunciasEcuador:** API REST para la gestión de denuncias ciudadanas en Ecuador. Sistema que permite a los usuarios registrarse, autenticarse y reportar incidentes relacionados con aseo, ornato, tránsito vial y delitos. Construido en Spring Boot 3.5.6.
 - **TechBit:** Sistema de gestión de tickets bajo Jakarta EE.
 - **Librería & Tienda:** Aplicaciones MVC y Desktop demostrando versatilidad en entornos Java.
 
