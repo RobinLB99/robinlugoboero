@@ -1,59 +1,88 @@
-# PortafolioV3
+# 🚀 Portafolio V3 | Robin Lugo Boero
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.2.
+[![Angular](https://img.shields.io/badge/Angular-21.0.2-DD0031?style=flat-square&logo=angular)](https://angular.io/)
+[![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=flat-square&logo=openjdk)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-6DB33F?style=flat-square&logo=springboot)](https://spring.io/projects/spring-boot)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
-## Development server
+## 🎯 Perfil Profesional
 
-To start a local development server, run:
+**Desarrollador de Software | Estudiante de Ingeniería en Sistemas Inteligentes | Tecnólogo en Redes y Telecomunicaciones**
 
-```bash
-ng serve
+Focalizado en la construcción de soluciones robustas que integran la visión analítica de la infraestructura con la agilidad del desarrollo web moderno. Mi enfoque se centra en la creación de código funcional, escalable y bien estructurado, priorizando la sostenibilidad a largo plazo y la resolución eficiente de problemas complejos.
+
+---
+
+## 🛠️ Stack Tecnológico
+
+### Frontend
+- **Framework:** Angular 21 (Latest) con **SSR (Server-Side Rendering)** para optimización SEO y rendimiento.
+- **Testing:** Vitest para pruebas unitarias rápidas y eficientes.
+- **Estilos:** CSS3 nativo (Vanilla CSS) siguiendo principios de diseño atómico y responsivo.
+- **Herramientas:** FontAwesome, Devicon, Prettier & ESLint (Angular-recommended).
+
+### Backend & Core Skills (Proyectos Relacionados)
+- **Lenguajes:** Java (Spring Boot, Jakarta EE), JavaScript/TypeScript.
+- **Persistencia:** PostgreSQL, MySQL, MariaDB, Eclipselink JPA.
+- **Infraestructura:** Docker, Redes y Telecomunicaciones.
+
+---
+
+## 🏗️ Arquitectura del Proyecto
+
+Este portafolio ha sido diseñado siguiendo las mejores prácticas de modularización en Angular:
+
+```text
+src/app/
+├── components/     # Componentes reutilizables (Navbar, Footer, UI)
+├── interfaces/     # Definiciones de tipos y contratos de datos
+├── pages/          # Vistas principales (Home, About, Projects, etc.)
+├── services/       # Lógica de negocio y gestión de estado
+└── app.routes.ts   # Configuración de enrutamiento optimizado
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🚀 Instalación y Desarrollo
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Requisitos Previos
+- Node.js (v20+ recomendado)
+- Angular CLI `^21.0.0`
 
-```bash
-ng generate component component-name
-```
+### Configuración local
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/RobinLB99/portafolio-v3.git
+   ```
+2. Instalar dependencias:
+   ```bash
+   npm install
+   ```
+3. Ejecutar servidor de desarrollo:
+   ```bash
+   ng serve
+   ```
+   Accede a `http://localhost:4200/`.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
+### Producción & SSR
+Para compilar la versión de producción con Server-Side Rendering:
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## 📂 Proyectos Destacados
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+- **API REST Servicios Legales:** Backend robusto con Spring Boot y Docker.
+- **TechBit:** Sistema de gestión de tickets bajo Jakarta EE.
+- **Librería & Tienda:** Aplicaciones MVC y Desktop demostrando versatilidad en entornos Java.
 
-```bash
-ng test
-```
+---
 
-## Running end-to-end tests
+## 📄 Licencia
 
-For end-to-end (e2e) testing, run:
+Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) para detalles.
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+*Hecho por Robin Lugo Boero*
