@@ -51,7 +51,7 @@ src/app/
 ### Configuración local
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/RobinLB99/portafolio-v3.git
+   git clone https://github.com/RobinLB99/robinlugoboero.git
    ```
 2. Instalar dependencias:
    ```bash
