@@ -33,10 +33,10 @@ export class TechnologiesComponent {
           name: 'Spring Boot',
           icon: 'icons/spring-boot-original.svg',
         },
-        {
-          name: 'Spring',
-          icon: 'icons/devicon/spring-original.svg',
-        },
+        // {
+        //   name: 'Spring',
+        //   icon: 'icons/devicon/spring-original.svg',
+        // },
         {
           name: 'JPA/Hibernate',
           icon: 'icons/devicon/hibernate-plain.svg',
@@ -48,7 +48,7 @@ export class TechnologiesComponent {
       name: 'Frameworks y Librerías Frontend',
       technologies: [
         { name: 'Angular', icon: 'icons/devicon/angularjs-plain.svg' },
-        { name: 'React', icon: 'icons/devicon/react-original.svg' },
+        { name: 'Preact', icon: 'icons/devicon/react-original.svg' },
         { name: 'Thymeleaf', icon: 'icons/devicon/thymeleaf-plain.svg' },
         { name: 'HTMX', icon: 'icons/devicon/htmx-original.svg' },
         { name: 'Bootstrap', icon: 'icons/devicon/bootstrap-plain.svg' },
