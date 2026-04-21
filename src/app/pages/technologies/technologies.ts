@@ -52,6 +52,7 @@ export class TechnologiesComponent {
         { name: 'Thymeleaf', icon: 'icons/devicon/thymeleaf-plain.svg' },
         { name: 'HTMX', icon: 'icons/devicon/htmx-original.svg' },
         { name: 'Bootstrap', icon: 'icons/devicon/bootstrap-plain.svg' },
+        { name: 'Tailwind CSS', icon: 'icons/tailwindcss-plain.svg' },
       ],
     },
     {
