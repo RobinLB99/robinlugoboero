@@ -35,6 +35,10 @@ export class TechnologiesComponent {
           name: 'Hibernate',
           icon: 'icons/devicon/hibernate-plain.svg',
         },
+        {
+          name: 'Eclipselink',
+          icon: 'icons/eclipselink-plain.svg',
+        },
       ],
     },
     {
