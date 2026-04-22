@@ -32,7 +32,7 @@ export class TechnologiesComponent {
           icon: 'icons/spring-boot-original.svg',
         },
         {
-          name: 'JPA/Hibernate',
+          name: 'Hibernate',
           icon: 'icons/devicon/hibernate-plain.svg',
         },
       ],
