@@ -50,6 +50,9 @@
               </a>
             </div>
           </div>
+          @if (project.state) {
+          <div class="state-banner">{{ project.state }}</div>
+          }
         </article>
       }
     </div>
