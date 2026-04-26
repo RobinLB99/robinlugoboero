@@ -24,7 +24,11 @@
     ]
   },
   "private": true,
-  "packageManager": "npm@11.10.0",
+  "packageManager": "npm@11.12.1",
+  "engines": {
+    "node": "24.15.0",
+    "npm": "11.12.1"
+  },
   "dependencies": {
     "@angular/common": "^21.2.10",
     "@angular/compiler": "^21.2.10",
