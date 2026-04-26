@@ -6,5 +6,6 @@ export interface Project {
   imageUrl: string;
   repoUrl: string;
   webUrl?: string;
+  demoUrl?: string;
   state?: string;
 }
