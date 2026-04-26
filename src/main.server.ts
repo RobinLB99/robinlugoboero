@@ -1,4 +1,3 @@
-import "zone.js";
 import {
   BootstrapContext,
   bootstrapApplication,
