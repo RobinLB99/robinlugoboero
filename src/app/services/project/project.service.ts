@@ -11,7 +11,7 @@ export class ProjectService {
       type: ['Aplicación', 'Web'],
       description:
         'Sistema Web para tiendas pequeñas que facilita el registro de ventas, control de caja, inventario y reportes en un solo lugar. ',
-      tags: ['Spring Boot', 'Angular', 'Java', 'PostgreSQL', 'Tailwind CSS', 'Docker', 'Hibernate'],
+      tags: ['Spring Boot', 'Angular', 'Java', 'PostgreSQL', 'Tailwind CSS', 'Docker'],
       imageUrl: 'projects-preview/possystem.webp',
       repoUrl: 'https://github.com/RobinLB99/point-of-sale',
       state: 'En Desarrollo',
