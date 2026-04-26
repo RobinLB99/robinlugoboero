@@ -26,7 +26,6 @@
   gap: 2rem;
 }
 
-
 /* --- Custom Grid Layout on Larger Screens --- */
 /* On wider screens, use a 3-column grid where the first project is larger */
 @media (min-width: 1024px) {
@@ -46,7 +45,8 @@
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform var(--transition-speed) ease,
+  transition:
+    transform var(--transition-speed) ease,
     box-shadow var(--transition-speed) ease;
 }
 
@@ -120,8 +120,10 @@
   text-align: center;
   font-weight: 600;
   border: 1px solid transparent;
-  transition: background-color var(--transition-speed),
-    color var(--transition-speed), border-color var(--transition-speed);
+  transition:
+    background-color var(--transition-speed),
+    color var(--transition-speed),
+    border-color var(--transition-speed);
 }
 
 .btn-primary {
@@ -142,6 +144,18 @@
 .btn-secondary:hover {
   background-color: var(--primary);
   color: var(--text);
+}
+
+.state-banner {
+  background-color: var(--primary);
+  color: var(--text);
+  text-align: center;
+  padding: 0.99rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 100%;
 }
 
 /* --- Responsive Adjustments for Projects Section --- */
@@ -261,4 +275,3 @@
 .github-link:hover {
   text-decoration: underline;
 }
-

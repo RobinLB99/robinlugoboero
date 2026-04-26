@@ -5,5 +5,7 @@ export interface Project {
   tags: string[];
   imageUrl: string;
   repoUrl: string;
-  webUrl?: string; // Optional property
+  webUrl?: string;
+  demoUrl?: string;
+  state?: string;
 }

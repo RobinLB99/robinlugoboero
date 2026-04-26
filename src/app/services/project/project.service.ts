@@ -7,6 +7,16 @@ import { Project } from '../../interfaces/project';
 export class ProjectService {
   private projects: Project[] = [
     {
+      name: 'Sistema de Punto de Venta',
+      type: ['Aplicación', 'Web'],
+      description:
+        'Sistema Web para tiendas pequeñas que facilita el registro de ventas, control de caja, inventario y reportes en un solo lugar. ',
+      tags: ['Spring Boot', 'Angular', 'Java', 'PostgreSQL', 'Tailwind CSS', 'Docker'],
+      imageUrl: 'projects-preview/possystem.webp',
+      repoUrl: 'https://github.com/RobinLB99/point-of-sale',
+      state: 'En Desarrollo',
+    },
+    {
       name: 'API REST para Servicios Legales',
       type: ['Aplicación', 'API', 'Web'],
       description:
@@ -45,16 +55,7 @@ export class ProjectService {
       name: 'TechBit',
       type: ['Aplicación', 'MVC', 'Web'],
       description: 'Plataforma de Gestión de Tickets de Soporte Técnico.',
-      tags: [
-        'Jakarta EE',
-        'JSP',
-        'Java',
-        'JavaScript',
-        'Bootstrap',
-        'MariaDB',
-        'Eclipselink',
-        'Docker',
-      ],
+      tags: ['JSP', 'Java', 'JavaScript', 'Bootstrap', 'MariaDB', 'Docker'],
       imageUrl: 'projects-preview/techbit.webp',
       repoUrl: 'https://github.com/RobinLB99/TECHBIT',
     },
@@ -63,7 +64,7 @@ export class ProjectService {
       type: ['Aplicación', 'MVC', 'Web'],
       description:
         'Software para la administración de una librería mediante la gestión de inventario, compra y venta de libros.',
-      tags: ['Jakarta EE', 'JSP', 'Java', 'JavaScript', 'Bootstrap', 'MySQL', 'Eclipselink'],
+      tags: ['JSP', 'Java', 'JavaScript', 'Bootstrap', 'MySQL'],
       imageUrl: 'projects-preview/libreria.webp',
       repoUrl: 'https://github.com/RobinLB99/Tienda_de_libros',
     },
@@ -71,7 +72,7 @@ export class ProjectService {
       name: 'Tienda',
       type: ['Aplicación', 'Escritorio'],
       description: 'Software de escritorio para la gestión de productos de una tienda.',
-      tags: ['Java', 'Java Swing', 'MySQL', 'Eclipselink'],
+      tags: ['Java', 'Java Swing', 'MySQL'],
       imageUrl: 'projects-preview/tienda.webp',
       repoUrl: 'https://github.com/RobinLB99/tienda',
     },
