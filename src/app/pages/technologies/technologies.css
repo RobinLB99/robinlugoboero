@@ -63,51 +63,53 @@
   padding: 1.5rem 1rem;
   border-radius: 8px;
   font-weight: 500;
-  transition:
-    transform var(--transition-speed) ease,
-    box-shadow var(--transition-speed) ease;
+  color: var(--accent); /* El color base se define aquí */
   border: 1px solid var(--primary);
-
-  /* Flex properties for alignment */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.8rem; /* Space between icon and text */
+  gap: 0.8rem;
+  /* Transición única para todo el estado de la tarjeta */
+  transition: 
+    transform var(--transition-speed) cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow var(--transition-speed) cubic-bezier(0.4, 0, 0.2, 1),
+    border-color var(--transition-speed) cubic-bezier(0.4, 0, 0.2, 1),
+    color var(--transition-speed) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .devicon-mask {
   display: inline-block;
-  width: 48px; /* Default icon color */
-  height: 48px; /* Default icon color */
-  background-color: var(--accent); /* Default icon color */
+  width: 48px;
+  height: 48px;
+  background-color: currentColor; /* Sincronización perfecta con el texto */
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-position: center;
   mask-position: center;
-  transition: background-color 0.3s ease;
 }
 
 .tech-card span {
   font-size: 1rem;
-  color: var(--accent); /* Default text color */
-  transition: color 0.3s ease;
+  color: inherit; /* Hereda el color de la tarjeta */
 }
 
 .tech-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
   border-color: var(--accent);
+  color: var(--text); /* Cambia el color del padre y afecta a ambos hijos a la vez */
 }
 
+/* Eliminamos los selectores individuales de hover para evitar conflictos */
 .tech-card:hover .devicon-mask {
-  background-color: #e2e8f0; /* Hover icon color */
+  /* Ya no es necesario background-color individual */
 }
 
 .tech-card:hover span {
-  color: var(--text); /* Hover text color */
+  /* Ya no es necesario color individual */
 }
 
 /* --- Responsive Adjustments --- */
