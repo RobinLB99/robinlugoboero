@@ -37,7 +37,7 @@ export class ProjectService {
     {
       name: 'Portafolio v3',
       type: ['Sitio', 'Web'],
-      description: '3ra versión de mi Portafolio personal.',
+      description: '3ra y actual versión de mi Portafolio personal.',
       tags: ['Angular', 'CSS Vanilla'],
       imageUrl: 'projects-preview/portafolio.webp',
       repoUrl: 'https://github.com/RobinLB99/robinlugoboero',
@@ -53,17 +53,17 @@ export class ProjectService {
     },
     {
       name: 'TechBit',
-      type: ['Aplicación', 'MVC', 'Web'],
-      description: 'Plataforma de Gestión de Tickets de Soporte Técnico.',
+      type: ['Aplicación', 'Web'],
+      description: 'Plataforma MVC para la Gestión de Tickets de Soporte Técnico.',
       tags: ['JSP', 'Java', 'JavaScript', 'Bootstrap', 'MariaDB', 'Docker'],
       imageUrl: 'projects-preview/techbit.webp',
       repoUrl: 'https://github.com/RobinLB99/TECHBIT',
     },
     {
       name: 'Librería',
-      type: ['Aplicación', 'MVC', 'Web'],
+      type: ['Aplicación', 'Web'],
       description:
-        'Software para la administración de una librería mediante la gestión de inventario, compra y venta de libros.',
+        'Plataforma MVC para la administración de una librería mediante la gestión de inventario, compra y venta de libros.',
       tags: ['JSP', 'Java', 'JavaScript', 'Bootstrap', 'MySQL'],
       imageUrl: 'projects-preview/libreria.webp',
       repoUrl: 'https://github.com/RobinLB99/Tienda_de_libros',
