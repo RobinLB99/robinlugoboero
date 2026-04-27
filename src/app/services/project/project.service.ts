@@ -17,10 +17,10 @@ export class ProjectService {
       status: 'En Desarrollo',
     },
     {
-      name: 'Servicios Legales',
+      name: 'LegalServicePortal',
       type: ['API Rest'],
       description:
-        'API REST para gestión de servicios legales. Facilita la interacción entre abogados y clientes.',
+        'API REST robusta y segura para gestión de servicios legales. Facilita la interacción entre abogados y clientes.',
       tags: ['Spring Boot', 'Java', 'PostgreSQL', 'Docker'],
       imageUrl: 'projects-preview/legalserviceportalapi.webp',
       repoUrl: 'https://github.com/RobinLB99/legal-service-portal-api',
@@ -28,7 +28,7 @@ export class ProjectService {
     {
       name: 'DenunciasEcuador',
       type: ['API Rest'],
-      description: 'API Rest para la Gestión de denuncias.',
+      description: 'API Rest segura para la Gestión de denuncias.',
       tags: ['Spring Boot', 'Java', 'PostgreSQL', 'Docker'],
       imageUrl: 'projects-preview/denunciasecuadorapi.webp',
       repoUrl: 'https://github.com/RobinLB99/denunciasecuador-api',
