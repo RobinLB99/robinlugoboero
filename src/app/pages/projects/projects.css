@@ -97,9 +97,14 @@
 
 .card-description {
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.5;
   margin-bottom: 1rem;
-  flex-grow: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 4.5em; /* 3 líneas de 1.5 line-height */
 }
 
 .card-tags {
@@ -107,12 +112,12 @@
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-bottom: 1.5rem;
+  margin-top: auto; /* Empuja las tecnologías y acciones al fondo */
 }
 
 .card-actions {
   display: flex;
   gap: 1rem;
-  margin-top: auto; /* Pushes actions to the bottom */
 }
 
 .btn {
