@@ -38,7 +38,7 @@ export class ProjectService {
       name: 'Portafolio Personal',
       type: ['Sitio', 'Web'],
       description: '3ra versión de mi Portafolio personal.',
-      tags: ['Angular', 'Tailwind CSS'],
+      tags: ['Angular', 'CSS Vanilla'],
       imageUrl: 'projects-preview/portafolio.webp',
       repoUrl: 'https://github.com/RobinLB99/robinlugoboero',
     },
