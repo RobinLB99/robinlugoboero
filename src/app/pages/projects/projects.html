@@ -9,6 +9,9 @@
     <div class="projects-grid">
       @for (project of projects; track project.name) {
         <article class="project-card">
+          @if (project.state) {
+            <div class="status-badge">{{ project.state }}</div>
+          }
           <img
             [src]="project.imageUrl"
             [alt]="project.name"
@@ -50,9 +53,6 @@
               </a>
             </div>
           </div>
-          @if (project.state) {
-          <div class="state-banner">{{ project.state }}</div>
-          }
         </article>
       }
     </div>

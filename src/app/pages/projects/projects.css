@@ -39,6 +39,7 @@
 }
 
 .project-card {
+  position: relative;
   background-color: var(--bg-card);
   border-radius: 8px;
   overflow: hidden;
@@ -146,16 +147,20 @@
   color: var(--text);
 }
 
-.state-banner {
+.status-badge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 10;
   background-color: var(--primary);
   color: var(--text);
-  text-align: center;
-  padding: 0.99rem 1rem;
-  font-size: 0.95rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.9rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 /* --- Responsive Adjustments for Projects Section --- */
