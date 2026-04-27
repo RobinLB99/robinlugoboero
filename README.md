@@ -1,8 +1,8 @@
 # 🚀 Portafolio V3 | Robin Lugo Boero
 
-[![Angular](https://img.shields.io/badge/Angular-21.0.2-DD0031?style=flat-square&logo=angular)](https://angular.io/)
+[![Angular](https://img.shields.io/badge/Angular-17%2B-DD0031?style=flat-square&logo=angular)](https://angular.io/)
 [![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=flat-square&logo=openjdk)](https://www.oracle.com/java/)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-6DB33F?style=flat-square&logo=springboot)](https://spring.io/projects/spring-boot)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3%2B-6DB33F?style=flat-square&logo=springboot)](https://spring.io/projects/spring-boot)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
 ## 🎯 Perfil Profesional
@@ -46,7 +46,7 @@ src/app/
 
 ### Requisitos Previos
 - Node.js (v20+ recomendado)
-- Angular CLI `^21.0.0`
+- Angular CLI `^21+`
 
 ### Configuración local
 1. Clonar el repositorio:
