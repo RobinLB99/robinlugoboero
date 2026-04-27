@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1777314469992,
+  "timestamp": 1777317567447,
   "index": "/robinlugoboero/index.csr.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/robinlugoboero/index.csr.html",
-        "/robinlugoboero/main-TEKU2ACQ.js",
+        "/robinlugoboero/main-YVKTMV25.js",
         "/robinlugoboero/manifest.webmanifest",
         "/robinlugoboero/styles-64ZNF73R.css"
       ],
@@ -225,8 +225,8 @@
     "/robinlugoboero/icons/preact-plain.svg": "379e340b35e637089c30dc45b7e2b6a25d9279d5",
     "/robinlugoboero/icons/spring-boot-original.svg": "744f543e8b57848d3d2a7e7276ddd81591046c97",
     "/robinlugoboero/icons/tailwindcss-plain.svg": "4d12bf3bac35479ef1e204a99afaff5a42000c57",
-    "/robinlugoboero/index.csr.html": "68d7a6432f1018748d9898b16b4c2063e75087a0",
-    "/robinlugoboero/main-TEKU2ACQ.js": "34cd3ab7292697e82ad7c8c631e0b2d659eb394c",
+    "/robinlugoboero/index.csr.html": "8fdadcbba9acfc40592396daf08659b5e31c7e40",
+    "/robinlugoboero/main-YVKTMV25.js": "cac2588f10f14aeee2553c2da6b624f31284561b",
     "/robinlugoboero/manifest.webmanifest": "d1f994b4d2ecbf5cf57d3ed92d778e50a8e00a37",
     "/robinlugoboero/profile/avatar.webp": "6f14da4eb49bb8a5916312e7da8d1853f5eaf303",
     "/robinlugoboero/profile/profile.webp": "d8e28db960b608ed998a8181e7061fc66d1554e8",
