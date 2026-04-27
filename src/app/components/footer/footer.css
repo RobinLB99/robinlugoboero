@@ -15,17 +15,19 @@
   align-items: center;
 }
 
-.footer-socials {
+.footer-networks {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   gap: 2rem;
 }
 
-.footer-socials a {
+.footer-networks a {
   color: var(--accent);
   transition: color var(--transition-speed) ease, transform var(--transition-speed) ease;
 }
 
-.footer-socials a:hover {
+.footer-networks a:hover {
   color: var(--text);
   transform: translateY(-3px);
 }
@@ -44,7 +46,7 @@
     text-align: center;
   }
 
-  .footer-socials {
+  .footer-networks {
     justify-content: center; /* Center social icons when stacked */
     gap: 1.5rem;
   }
@@ -58,7 +60,7 @@
   .footer-container {
     padding: 1.5rem 0.5rem;
   }
-  .footer-socials {
+  .footer-networks {
     gap: 1rem;
   }
 }
