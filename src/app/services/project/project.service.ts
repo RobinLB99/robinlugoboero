@@ -17,8 +17,8 @@ export class ProjectService {
       state: 'En Desarrollo',
     },
     {
-      name: 'API REST para Servicios Legales',
-      type: ['Aplicación', 'API', 'Web'],
+      name: 'Servicios Legales',
+      type: ['API Rest'],
       description:
         'API REST para gestión de servicios legales. Facilita la interacción entre abogados y clientes.',
       tags: ['Spring Boot', 'Java', 'PostgreSQL', 'Docker'],
@@ -27,15 +27,15 @@ export class ProjectService {
     },
     {
       name: 'DenunciasEcuador',
-      type: ['Aplicación', 'API', 'Web'],
-      description: 'API REST para la gestión de denuncias.',
+      type: ['API Rest'],
+      description: 'API Rest para la Gestión de denuncias.',
       tags: ['Spring Boot', 'Java', 'PostgreSQL', 'Docker'],
       imageUrl: 'projects-preview/denunciasecuadorapi.webp',
       repoUrl: 'https://github.com/RobinLB99/denunciasecuador-api',
     },
 
     {
-      name: 'Portafolio Personal',
+      name: 'Portafolio v3',
       type: ['Sitio', 'Web'],
       description: '3ra versión de mi Portafolio personal.',
       tags: ['Angular', 'CSS Vanilla'],
@@ -43,7 +43,7 @@ export class ProjectService {
       repoUrl: 'https://github.com/RobinLB99/robinlugoboero',
     },
     {
-      name: 'Portafolio (Antiguo)',
+      name: 'Portafolio v2',
       type: ['Sitio', 'Web'],
       description: '2da versión de mi Portafolio personal.',
       tags: ['Preact', 'Bootstrap'],
