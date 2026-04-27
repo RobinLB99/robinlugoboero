@@ -9,8 +9,16 @@
       <p class="hero-secondary-profession">
         Java & Spring Boot | SQL / NoSQL | Infraestructura & Linux
       </p>
-      <a routerLink="/projects" class="hero-button">Ver Proyectos</a>
-      <a routerLink="/contact" class="hero-button ml-3">Contáctame</a>
+      <div class="hero-actions">
+        <a routerLink="/projects" class="btn-hero btn-hero-primary">
+          <span>Ver Proyectos</span>
+          <fa-icon [icon]="faArrowRight"></fa-icon>
+        </a>
+        <a routerLink="/contact" class="btn-hero btn-hero-secondary">
+          <fa-icon [icon]="faComment"></fa-icon>
+          <span>Contáctame</span>
+        </a>
+      </div>
     </div>
   </section>
 </div>
