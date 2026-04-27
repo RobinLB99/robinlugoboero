@@ -7,5 +7,5 @@ export interface Project {
   repoUrl: string;
   webUrl?: string;
   demoUrl?: string;
-  state?: string;
+  status?: string;
 }
