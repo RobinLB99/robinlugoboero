@@ -8,9 +8,10 @@
 
     <div class="projects-grid">
       @for (project of projects; track project.name) {
-        <article class="project-card">
+      <article class="project-card">
+        <div class="card-image-container">
           @if (project.status) {
-            <div class="status-badge">{{ project.status }}</div>
+          <div class="status-badge">{{ project.status }}</div>
           }
           <img
             [src]="project.imageUrl"
@@ -19,41 +20,50 @@
             class="card-image"
             loading="lazy"
           />
-          <div class="card-content">
-            <div class="card-title-type">
-              <h2 class="card-title">{{ project.name }}</h2>
-              @for (type of project.type; track $index) {
-                <span class="type">{{ type }}</span>
-              }
-            </div>
-            <p class="card-description">{{ project.description }}</p>
+        </div>
+        <div class="card-content">
+          <div class="card-title-type">
+            <h2 class="card-title">{{ project.name }}</h2>
+            @for (type of project.type; track $index) {
+            <span class="type">{{ type }}</span>
+            }
+          </div>
+          <p class="card-description">{{ project.description }}</p>
+          <div class="card-footer">
             <div class="card-tags">
               @for (tag of project.tags; track tag) {
-                <span class="tag">{{ tag }}</span>
+              <span class="tag">{{ tag }}</span>
               }
             </div>
             <div class="card-actions">
               @if (project.webUrl) {
-                <a
-                  [href]="project.webUrl"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="btn btn-primary"
-                >
-                  Ir a la web
-                </a>
+              <a
+                [href]="project.webUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary"
+              >
+                <fa-icon [icon]="faExternalLink"></fa-icon>
+                <span>Ir a la web</span>
+              </a>
               }
               <a
-                [href]="project.repoUrl"
+                [href]="project.repo.url"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="btn btn-secondary"
               >
-                Código Fuente
+                @if (project.repo.type === 'github') {
+                  <fa-icon [icon]="faGithub"></fa-icon>
+                } @else {
+                  <fa-icon [icon]="faGitlab"></fa-icon>
+                }
+                <span>Repositorio</span>
               </a>
             </div>
           </div>
-        </article>
+        </div>
+      </article>
       }
     </div>
     <div class="github-link-container">

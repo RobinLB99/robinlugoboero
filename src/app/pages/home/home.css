@@ -38,28 +38,6 @@
   color: var(--text);
 }
 
-.hero-content .hero-subtitle {
-  font-size: 1.5rem;
-  color: var(--accent);
-  margin-bottom: 2rem;
-}
-
-.hero-content .hero-button {
-  display: inline-block;
-  background-color: var(--primary);
-  color: var(--bg-body);
-  padding: 1rem 2rem;
-  border-radius: 8px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  transition: background-color var(--transition-speed) ease;
-}
-
-.hero-content .hero-button:hover {
-  background-color: var(--accent);
-  color: var(--bg-card);
-}
-
 .hero-content .hero-main-profession {
   font-size: 1.8rem; /* Slightly larger than the old subtitle */
   font-weight: 600; /* Make it a bit bolder */
@@ -71,6 +49,51 @@
   font-size: 1.3rem; /* Smaller than main profession */
   color: var(--accent); /* Use accent color for specialization */
   margin-bottom: 2rem; /* Consistent with old subtitle margin before button */
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.btn-hero {
+  padding: 0.8rem 2.2rem;
+  border-radius: 10px; /* Bordes ligeramente más suaves para el Hero */
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all var(--transition-speed) ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  text-align: center;
+  border: 2px solid transparent;
+}
+
+.btn-hero-primary {
+  background-color: var(--accent);
+  color: var(--bg-body);
+  border-color: var(--accent);
+}
+
+.btn-hero-primary:hover {
+  background-color: var(--text);
+  border-color: var(--text);
+  color: var(--bg-body);
+  transform: translateY(-4px) scale(1.02);
+}
+
+.btn-hero-secondary {
+  background-color: transparent;
+  color: var(--text);
+  border-color: var(--primary);
+}
+
+.btn-hero-secondary:hover {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg-body);
 }
 
 /* Media Queries for Responsiveness */
@@ -99,10 +122,6 @@
     font-size: 2.2rem; /* Adjust font size for smaller screens */
   }
 
-  .hero-content .hero-subtitle {
-    font-size: 1.1rem; /* Adjust font size for smaller screens */
-  }
-
   .hero-content .hero-main-profession {
     font-size: 1.3rem; /* Adjusted for smaller screens */
   }
@@ -126,13 +145,13 @@
     font-size: 1.8rem; /* Further adjust font size for very small screens */
   }
 
-  .hero-content .hero-subtitle {
-    font-size: 1rem; /* Further adjust font size for very small screens */
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
   }
 
-  .hero-content .hero-button {
-    padding: 0.8rem 1.5rem; /* Adjust button padding */
-    font-size: 1rem;
+  .btn-hero {
+    width: 100%;
   }
 
   .hero-content .hero-main-profession {
