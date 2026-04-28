@@ -262,7 +262,7 @@
     border-radius: 6px;
   }
 
-  .card-image {
+  .card-image-container {
     height: 150px;
   }
 
@@ -272,16 +272,21 @@
 
   .card-title {
     font-size: 1.2rem;
+    margin: 0; /* Eliminamos margen por defecto del h2 */
   }
 
   .card-description {
     font-size: 0.9rem;
     margin-bottom: 0.8rem;
+    min-height: 4.5em; /* 3 líneas de 1.5 line-height con la fuente de 0.9rem */
+  }
+
+  .card-footer {
+    gap: 1rem;
   }
 
   .card-tags {
     gap: 0.4rem;
-    margin-bottom: 1rem;
   }
 
   .tag {
