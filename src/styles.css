@@ -31,13 +31,13 @@ body {
     system-ui,
     -apple-system,
     BlinkMacSystemFont,
-    "Segoe UI",
+    'Segoe UI',
     Roboto,
     Oxygen,
     Ubuntu,
     Cantarell,
-    "Open Sans",
-    "Helvetica Neue",
+    'Open Sans',
+    'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -46,16 +46,10 @@ body {
 /* === GLOBAL CLASSES === */
 .page-container {
   width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  /*
-    Instead of centering everything, we'll let the page components decide their alignment.
-    This is more flexible.
-    justify-content: center;
-    align-items: center;
-   */
+  min-height: 100dvh;
   padding-top: var(--nav-height);
+  display: grid;
+  align-items: center;
 }
 
 a {
