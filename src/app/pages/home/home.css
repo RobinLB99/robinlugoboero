@@ -21,11 +21,20 @@
   min-height: 70vh;
 }
 
-.hero-avatar img {
+.hero-avatar {
   width: 100%;
   max-width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-avatar img {
+  width: 100%;
   height: auto;
+  aspect-ratio: 1 / 1;
   object-fit: contain;
+  background-color: transparent;
 }
 
 .hero-content {
