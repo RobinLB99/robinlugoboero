@@ -21,11 +21,11 @@ export class CertificationService {
       url: 'https://codigofacilito.com/certificates/b518baea-39cb-4981-8780-61977aeef306',
     },
     {
-      title: 'Responsive Web Design',
+      title: 'Diseño Web Adaptativo',
       intitution: 'freeCodeCamp',
       dateExpetition: new Date(2023, 2, 23),
       credentialID: 'robinlb99-rwd',
-      url: 'https://freecodecamp.org/certification/RobinLB99/responsive-web-design',
+      url: 'https://www.freecodecamp.org/espanol/certification/robinlb99/responsive-web-design',
     },
   ];
 
