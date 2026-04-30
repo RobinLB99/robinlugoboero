@@ -14,8 +14,8 @@ export class ProjectService {
       tags: ['Spring Boot', 'Angular', 'Java', 'PostgreSQL', 'Tailwind CSS', 'Docker'],
       imageUrl: 'projects-preview/possystem.webp',
       repo: {
-        type: 'github',
-        url: 'https://github.com/RobinLB99/point-of-sale',
+        type: 'gitlab',
+        url: 'https://gitlab.com/RobinLB99/point-of-sale-system',
       },
       status: 'En Desarrollo',
     },
