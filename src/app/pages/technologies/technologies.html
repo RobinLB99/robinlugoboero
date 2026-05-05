@@ -7,7 +7,7 @@
     <div class="technologies-grouped">
       @for (category of categories; track category.name) {
       <h2 class="category-title">{{ category.name }}</h2>
-      <div class="technologies-grid">
+      <div class="technologies-list">
         @for (tech of category.technologies; track tech.name) {
         <div class="tech-card">
           <span
