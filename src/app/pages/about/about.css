@@ -54,7 +54,7 @@
 
 /* --- Responsive Adjustments for About Section --- */
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   .about-container {
     flex-direction: column;
     text-align: center;
@@ -104,4 +104,8 @@
   .about-content p {
     font-size: 0.95rem;
   }
+}
+
+@media (max-width: 1023px) {
+
 }

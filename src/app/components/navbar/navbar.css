@@ -153,7 +153,7 @@
 }
 
 /* --- Media Queries para Responsividad --- */
-@media (min-width: 768px) {
+@media (min-width: 850px) {
   .menu-toggle {
     display: none;
   }
