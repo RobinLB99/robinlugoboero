@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
 import { ViewportScroller } from '@angular/common';
 import { Navbar } from './components/navbar/navbar';
 import { Footer } from './components/footer/footer';
 import { filter } from 'rxjs/operators';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 
 @Component({
   selector: 'app-root',
@@ -13,9 +14,13 @@ import { filter } from 'rxjs/operators';
   styleUrls: ['./app.css'],
 })
 export class App {
-  constructor(private router: Router, private viewportScroller: ViewportScroller) {
+  private readonly router = inject(Router);
+  private readonly viewportScroller = inject(ViewportScroller);
+
+  constructor() {
     this.router.events.pipe(
-      filter((event): event is NavigationEnd => event instanceof NavigationEnd)
+      filter((event): event is NavigationEnd => event instanceof NavigationEnd),
+      takeUntilDestroyed()
     ).subscribe(() => {
       this.viewportScroller.scrollToPosition([0, 0]);
     });
