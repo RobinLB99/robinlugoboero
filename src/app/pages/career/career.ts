@@ -15,13 +15,13 @@ import { Certificate } from '../../interfaces/certificate';
   styleUrl: './career.css',
 })
 export class CareerComponent {
-  public experiences: Experience[] = [];
-  public educations: Education[] = [];
-  public certifications: Certificate[];
-
   private experienceService = inject(ExperienceService);
   private educationService = inject(EducationService);
   private certificationService = inject(CertificationService);
+
+  public experiences: Experience[] = this.experienceService.getExperiences();
+  public educations: Education[] = this.educationService.getEducation();
+  public certifications: Certificate[] = this.certificationService.getCertifications();
 
   private monthNames: string[] = [
     'Enero',
@@ -37,12 +37,6 @@ export class CareerComponent {
     'Noviembre',
     'Diciembre',
   ];
-
-  constructor() {
-    this.experiences = this.experienceService.getExperiences();
-    this.educations = this.educationService.getEducation();
-    this.certifications = this.certificationService.getCertifications();
-  }
 
   getMonthName(monthNumber: number): string {
     return this.monthNames[monthNumber];
